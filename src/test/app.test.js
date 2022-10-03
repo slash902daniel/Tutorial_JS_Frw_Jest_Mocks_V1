@@ -1,8 +1,9 @@
 const axios = require('axios');
-jest.mock('axios')
+
+jest.mock('axios');
 
 describe("Mock api calls", () => {
-    //RUN TEST WITH:   npm test
+
     test("Mocking external endpoint in axios", () => {
         
         //Arrange Mock
