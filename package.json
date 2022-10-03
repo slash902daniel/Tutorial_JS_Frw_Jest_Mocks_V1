@@ -1,0 +1,17 @@
+{
+  "name": "jest-mockupfunctions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:echo": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "axios": "^0.27.2",
+    "jest": "^28.1.3"
+  }
+}
